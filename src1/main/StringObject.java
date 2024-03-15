@@ -5,7 +5,7 @@ public class StringObject {
         String example2 = "Example of string variable";
 
         boolean isEqual = example == example1;
-        System.out.println("isEqual = " + isEqual); //compara por referencia
+        System.out.println("isEqual = " + isEqual); //compara por unidad de memoria en este caso false, son dos espacios de memoria diferentes
 
         isEqual = example.equals(example1);
         System.out.println("isEqual = " + isEqual); //metodo equals compara por valor
